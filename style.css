@@ -91,12 +91,43 @@ button:active {
 .result-container h1 {
     color: #4caf50;
     font-size: 2.5em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.result-container p {
-    font-size: 1.3em;
-    color: #555;
-    min-height: 80px;
+.personality-code {
+    font-size: 0.6em;
+    color: #999;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.personality-desc {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.details-box {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+.details-box p {
+    font-size: 1.1em;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.details-box p strong {
+    color: #ff6f61;
 }
 
 #restart-btn {
