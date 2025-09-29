@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+body {
+    font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    color: #333;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+#app {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border: 2px solid #eee;
+}
+
+h1 {
+    color: #ff6f61;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #5a5a5a;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+button {
+    font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ff6f61;
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 111, 97, 0.2);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(255, 111, 97, 0.3);
+}
+
+button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(255, 111, 97, 0.2);
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.option-btn {
+    background-color: #f7f7f7;
+    color: #333;
+    border: 2px solid #eee;
+}
+
+.option-btn:hover {
+    background-color: #ffc107;
+    color: white;
+    border-color: #ffc107;
+}
+
+.progress-text {
+    font-size: 1em;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+.result-container h1 {
+    color: #4caf50;
+    font-size: 2.5em;
+}
+
+.result-container p {
+    font-size: 1.3em;
+    color: #555;
+    min-height: 80px;
+}
+
+#restart-btn {
+    background-color: #4caf50;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(76, 175, 80, 0.2);
+}
+
+#restart-btn:hover {
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    #app {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
