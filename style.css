@@ -130,6 +130,26 @@ button:active {
     color: #ff6f61;
 }
 
+.extras-box {
+    background-color: #e8f5e9; /* A soft green background */
+    border: 1px solid #c8e6c9;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.extras-box p {
+    font-size: 1.1em;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.extras-box p strong {
+    color: #4caf50; /* Matching green for the title */
+}
+
 #restart-btn {
     background-color: #4caf50;
     margin-top: 20px;
